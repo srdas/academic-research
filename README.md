@@ -75,7 +75,7 @@ I had of course, the first two chapters in hand. I was now ready to ask Claude t
 
 We hit `Enter` and then watched in amazement. In less than a half hour, the entire book was ready. The book titled [**Quantum Phynance**](artifacts/qbook.pdf) looks really good---please, please click on it and take a look, preferably download it and look at all 239 pages. I have to now dig into it and check everything, but that process is going to be a learning one! Is this a new way to learn? What does one do with it?  
 
-I asked Claude to document what it had done and you can see this [here](https://github.com/srdas/quantum-finance/blob/main/notes/instructions.md). If you scroll to the bottom you will see that the book has a complete index as well. I remember spending hours making indexes by tagging words in LaTex, so no more of that! 
+I asked Claude to document what it had done and you can see this [here](https://github.com/srdas/quantum-finance/blob/main/notes/instructions.md). If you scroll to the bottom of the PDF quantum book you will see that the book has a complete index as well. I remember spending hours making indexes by tagging words in LaTex, so no more of that! 
 
 What I thought would be an enjoyable journey into the intersection of quantum computing and finance, *culminating* in a book, has now become a very different journey, *beginning* with a book---one that I daresay is not something as original as I might have hoped, and leaving me without a project I had been looking forward to. But I suppose it leaves me more time now to delve into quantum finance  without the usual academic pain of shepherding a paper/book to publication. 
 
