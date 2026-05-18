@@ -73,13 +73,9 @@ I had of course, the first two chapters in hand. I was now ready to ask Claude t
 
 *@qbook/qbook.tex Each of the commented lines 120-136 is a placeholder for a chapter to be written on the concept in the file name. Create a separate Latex file with that name for each chapter and in each Latex file, please write up the chapter. If you use references that are not in @qbook/Quantum.bib please add them as a separate bib file called Quantum2.bib (do not add them to the existing Quantum.bib file). Go chapter by chapter and uncomment each line for the \input{} of each chapter as you go. When writing, feel free to reference the other chapters. Try to make sure that the writing across chapters is consistent in notation and style. If you think the new chapters need to be resequenced, feel free to do so. Give catchy titles for each chapter and section within each chapter.*
 
-<!-- <video src="artifacts/quantum_phynance.mp4"  controls title="Video of the AI writing" width="100%"></video> -->
-
-<video width="100%" controls>
-  <source src="quantum_phynance.mp4" type="video/mp4">
-  Video of the AI writing
-</video>
-
+<!-- 
+https://github.com/user-attachments/assets/615321cb-28f6-4ef8-acdb-770f305325f3
+ -->
 
 We hit `Enter` and then watched in amazement. In less than a half hour, the entire book was ready. The book titled [**Quantum Phynance**](artifacts/qbook.pdf) looks really good---please, please click on it and take a look, preferably download it and look at all 239 pages. I have to now dig into it and check everything, but that process is going to be a learning one! Is this a new way to learn? What does one do with it?  
 
