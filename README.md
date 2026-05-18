@@ -75,7 +75,7 @@ I had of course, the first two chapters in hand. I was now ready to ask Claude t
 
 https://github.com/user-attachments/assets/020012f5-fa6b-414c-8f5f-b362748bd2c2
 
-We hit `Enter` and then watched in amazement. In less than a half hour, the entire book was ready. (You can see a short snippet of the AI at work above.) The book titled [**Quantum Phynance**](artifacts/qbook.pdf) looks really good---please, please click on it and take a look, preferably download it and look at all 239 pages. I have to now dig into it and check everything, but that process is going to be a learning one! Is this a new way to learn? What does one do with it?  
+We hit `Enter` and then watched in amazement. In less than a half hour, the entire book was ready. (You can see a short snippet of the AI at work above.) The book titled [**Quantum Phynance**](artifacts/qbook.pdf) looks really good though I am sure there are some hallucinations---please, please click on it and take a look, preferably download it and look at all 239 pages. I have to now dig into it and check everything, but that process is going to be a learning one! Is this a new way to learn? What does one do with it?  
 
 I asked Claude to document what it had done and you can see this [here](https://github.com/srdas/quantum-finance/blob/main/notes/instructions.md). If you scroll to the bottom of the PDF quantum book you will see that the book has a complete index as well. I remember spending hours making indexes by tagging words in LaTex, so no more of that! 
 
