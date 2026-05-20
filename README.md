@@ -108,3 +108,7 @@ I will keep writing. I will keep asking questions. I will keep caring about mark
 What I am already doing is switching off the AI unless using it for grunt work, and I will ramp up my time on critical thinking, judgment, and taste, the three pillars of what I enjoy so much about being an academic. 
 
 So this is my existential crisis. I will find a way to deal with it. But it is also ours as a community, and we all need to work this out. 
+
+#### Follow-on notes
+
+May 19, 2026: Google-IO, releases [Gemini for Science](https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/); see also the [article in Engadget](https://www.engadget.com/2177120/google-debuts-ai-powered-tools-to-optimize-scientific-research-workflows/).
