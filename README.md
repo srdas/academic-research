@@ -111,4 +111,4 @@ So this is my existential crisis. I will find a way to deal with it. But it is a
 
 #### Follow-on notes
 
-May 19, 2026: Google-IO, releases [Gemini for Science](https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/); see also the [article in Engadget](https://www.engadget.com/2177120/google-debuts-ai-powered-tools-to-optimize-scientific-research-workflows/).
+May 19, 2026: Google-IO, releases [Gemini for Science](https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/); see also the [article in Engadget](https://www.engadget.com/2177120/google-debuts-ai-powered-tools-to-optimize-scientific-research-workflows/). https://labs.google/science/ 
