@@ -2,6 +2,8 @@
 
 Sanjiv R Das
 ---
+(*Not for circulation or distribution.*)
+
 May 17, 2026
 
 I have been exploring academic research using AI over the last three months. There is a progression of ideas and artifacts generated as I worked through this and it culminated in my preparing an entire book in a few hours. This triggered some thorny emotions on this that spilled over, and I felt compelled to write up my journey. 
