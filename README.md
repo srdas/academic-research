@@ -22,7 +22,7 @@ I felt the paper did make a useful contribution about the latest AI Foundation m
 
 The rejection at FRL came with an option to transfer it to another journal (and here I am convinced that AI makes these recommendations). So I selected *Economics Letters*, which I had published in before, and it had a tighter word limit. The cover letter makes clear that AI is used and I also uploaded the Appendix explaining how the [submission](artifacts/EL67834.pdf) was prepared. Luckily, this was not desk rejected and is now under review and has been sent to [two reviewers](artifacts/EL_submission.png). I suspect the paper will be rejected as the contribution may be limited, but it may be interesting to the readership as it is about AI and is worked out with AI. But I am curious to see what the editor and referees think of this kind of submission. And I am deeply interested in the feedback because it will shed light on what policies we may need to develop at universities and journals to manage this new style of work. 
 
-I will update this here when I hear back from the journal. 
+The paper was rejected, with two excellent referee reports, really good ones. But both did not comment on the AI part of the paper. 
 
 My solace in this work so far has been that the ideation of the paper was all human and much of the structure and writing was also initially human. It was a lot of the grunt work that was handed off to the AI. 
 
