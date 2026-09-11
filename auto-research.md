@@ -26,6 +26,18 @@ AI-assisted Research automation has moved through five stages in less than that 
    
 2. End-to-End Open-Ended Discovery. Instead of specific tasks, end to end research work involves literature review, hypothesis generation, code implementation, execution, and manuscript composition. This is one of the most popular and common modes of automated research. (@mitchener_kosmos_2025, @weng_deepscientist_2025, @lu_ai_2024, @yamada_ai_2025, @tang_ai-researcher_2025).
 
+3. Grounding and Verifiability. These are frameworks addressing hallucination, divergence between code and the paper, and handling of statistical replication errors. Chain of Evidence (CoE) traces every claim to a verifiable source [@meng_scientistone_2026].  Curie [@kon_curie_2025] embeds rigor into the experimentation process through three components: an intra-agent rigor module to enhance reliability, an inter-agent rigor module to maintain methodical control, and an experiment knowledge module to enhance interpretability. Research problem formulation uses approaches like Structural Gap Hypothesis Agent (SGHA), [@gharat_sgha_2026]
+   
+4. Creating Interactive Knowledge Artifacts. An approach that shifts research papers from static PDFs to interactive executable agents. @miao_paper2agent_2025 converts papers automatically into research agents.  
+   
+   
+   
+(Paper2Agent, AgentRxiv, OmniScientist).
+
+
+
+  
+
 
 ## References
 
