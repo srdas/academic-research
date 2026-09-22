@@ -25,7 +25,7 @@ There is already an extensive debate around the role of humans in research done 
 
 AI-assisted Research automation has moved through five stages in less than that many years. 
 
-1. Task-specific Assistance. Here we see AI help us in code generation to undertake empirical analyses [@aygun_ai_2025-1], or in surveying papers for related literature, solve open problems, refute conjectures, and generate new proofs across diverse areas in theoretical computer science, as well as other areas such as math, economics, optimization, and physics [@woodruff_accelerating_2026]. 
+1. Task-specific Assistance. Here we see AI help us in code generation to undertake empirical analyses [@aygun_ai_2025-1], or to survey papers for related literature, solve open problems, refute conjectures, and generate new proofs across diverse areas in theoretical computer science, as well as other areas such as math, economics, optimization, and physics [@woodruff_accelerating_2026]. 
    
 2. End-to-End Open-Ended Discovery. Instead of specific tasks, end to end research work involves literature review, hypothesis generation, code implementation, execution, and manuscript composition. This is one of the most popular and common modes of automated research. (@mitchener_kosmos_2025, @weng_deepscientist_2025, @lu_ai_2024, @yamada_ai_2025, @tang_ai-researcher_2025).
 
@@ -68,9 +68,103 @@ The following table offers a description of all the papers in this taxonomy.
 | Agent Laboratory (2025) | Research Assistant | Multi-Agent Collaboration | Sandbox Code Execution | Human-in-the-Loop |
 | CodeScientist (2025) | Code & Experiment | Semi-Automated Execution | Metric-Driven Validation | Human-Assisted |
 
-  : Taxonomy of models and attributes
+  : Taxonomy of models and attributes {#tbl:taxonomy}
 
 \normalsize
+
+## How is this automation going to change research?
+
+There is no doubt that this sort of automation will drastically affect the research enterprise. We have already seen dramatic change in how mathematics research is being done. Scientifically-minded non-mathematicians are now able to produce (and to some extent, verify) proofs to solve open problems in mathematics.
+
+The [controversy around the Navier-Stokes problem](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority_controversy) is now a huge public conflict between academic mathematicians and AI labs. See also the [vibe-coded proof of Conway's Conjecture](overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/).
+
+Four definitive changes are taking place:
+
+1. **Epistemological**. The previous mode of delivering research involved distributing a PDF of the paper. Sometimes replicating code and data would also be supplied. Now, we have interactive interfaces such as Jupyter notebooks that contain everything that a reader can interact with. Research has gone from static artifacts to live, dynamic objects, often on interactive websites. AIs make the creation of these experiences easy. Refs: Paper2Agent: @miao_paper2agent_2025, AgentRxiv: @schmidgall_agentrxiv_2025.  
+
+
+2. **Verification and understanding crisis**. While paper production is accelerating, verification efforts cannot keep up. Even worse, auto research is creating a crisis of understanding. Research output is too huge for humans to grok quickly after the fact, and understanding, which seeps into the human mind during the process of solving an open problem, is no longer embedded into the workflow. The format of math proofs in [Lean](https://lean-lang.org/) is not easy to digest for humans. Peer review is also automated so now no one understands the results. This is truly an intellectual crisis. There was already a lot of paper bloat (especially in the social sciences) and automated research is exacerbating this problem. Refs: AI Scientist v1/v2: @lu_ai_2024, @yamada_ai_2025, AutoResearchClaw: @liu_autoresearchclaw_2026, ScientistOne: @meng_scientistone_2026. 
+
+3. **Human Role changes**. Hopefully, these systems eliminate the grunt work of the scientist, while elevating the quality of work, and sharply increasing scientists' responsibility for the research output. Scientists should now work on harder problems, use data better, explore richer hypothesis spaces, and coordinate multiple research agents — these are new skills we will need to develop. Hopefully, we focus more on ideas, and less on writing. Refs: Multi-agent and human collaboration: @huang_be_2025, @siegel_core-bench_2024, @kapoor_ai_2024, @narayanan_ai_2025. 
+
+4. **Dynamic Research**. Scientific output is currently episodic, punctuated by a series of papers being published at long intervals. The new research paradigm will be continuous with live research being updated in real time. As new data arrives, hypotheses get updated, new results are generated, and knowledge will evolve dynamically. This is a mental shift that researchers will need to make. Think of this as the difference between using chat interfaces to produce work one-time versus having a "claw" that keeps working autonomously. Refs: OmniScientist: @shao_omniscientist_2025, EvoScientist: @lyu_evoscientist_2026, AutoResearchClaw: @liu_autoresearchclaw_2026.
+
+
+## Strategic Recommendations for Researchers and Institutions
+
+Given these changes, what are researchers to do? How should institutions like universities, journals, funding agencies respond to the new environment? 
+
+First, *ideation*. the most obvious change is to focus more on the problem itself rather than datasets as moats, trying to find incremental niches, etc. We should prioritize problem formulation over iterative optimization by pivoting to  foundational questions, novel dataset curation, and theoretical formulation rather than incremental tuning. We need an intellectual market place of ideas, not exploitation of techniques. 
+
+Second, insist on reproducibility and ease of replication. This comes from a standardized code-execution infrastructure with containerized execution environments (Docker, MCP servers, Jupyter notebooks) for all research output to enable automated verification by tools like ScientistOne. One way to do this is to implement Chain-of-Evidence (CoE) mandates. Academic conferences and journals can  mandate cryptographic and computational provenance checks (CoE Audits) to prevent the proliferation of AI-generated unverified papers. This achieves *verification*. 
+
+Third, we can now make the thought process more transparent. This is more than just replicability. Papers can come with intuition-building supplements like interactive artifacts that foster *understanding*, not just correctness. Without this future ideation will not happen. Standing on the shoulders of giants presumes deep understanding. 
+
+Fourth, we need to develop *human-AI collaborative workflows* that integrate agent frameworks (e.g., Agent Laboratory, SGHA, EvoScientist) into daily laboratory/research operations as active co-scientists rather than simple literature search engines. Conversely, we need to eschew autonomous research. 
+
+
+## Appendix: Synopsis of papers
+
+This section is AI generated to complement and extend [Table 1](#tbl:taxonomy) above. 
+
+1. How to respond to the automation of research (Hsin-Yuan Huang - Caltech/Oratomic)
+Focus: Epistemological and practical strategies for researchers in an era of automated discovery.
+Key Insights: Argues that as AI automates routine experiment execution and low-level empirical optimization, human researchers must pivot toward problem framing, paradigm evaluation, and establishing foundational axioms. Evaluates how physical grounding vs. computational simulation dictates the pace of AI autonomy.
+2. What Will Be Left for Us to Work On? (Arvind Narayanan - ICML 2026)
+Focus: Labor economic and intellectual impact of research automation on computer science and machine learning.
+Key Insights: Identifies "research inflation" (the flood of AI-generated benchmark-chasing papers) and highlights human comparative advantages: physical-world data collection, taste-making, institutional negotiation, and critical auditing of automated outputs.
+3. How Far Are We from Genuinely Useful Deep Research Agents? (2025)
+Focus: Benchmark evaluation of contemporary research agents.
+Key Insights: Uncovers critical failures in current "deep research" models: hallucination of experimental conditions, inability to handle messy multi-modal data, and lack of true counterfactual reasoning. Distinguishes between surface-level paper generation and genuine scientific utility.
+End-to-End Autonomous Research Systems
+4. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (Sakana AI, 2024)
+Core Mechanics: First fully automated framework for ML research. Uses LLMs to generate ideas, modify code templates, execute experiments on GPUs, generate plots, and write full LaTeX papers with an automated peer reviewer.
+Limitations: High hallucination rate in citations, superficial methodology, prone to execution loops without deep error resolution.
+5. The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search (2025)
+Core Mechanics: Replaces v1's linear pipeline with Best-First Tree Search (BFTS). Segregates research into preliminary investigation, hyperparameter tuning, research agenda execution, and ablation studies.
+Impact: Achieves workshop-level paper quality, dramatically reducing total failures by enabling backtracking when code fails or hypotheses prove false.
+6. ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence (2026)
+Core Mechanics: Addresses "verifiability failures" in automated research papers. Introduces Chain-of-Evidence (CoE), requiring every numerical figure, claim, and code path to be cryptographically traceable to execution logs. Features CoE Audit checking score verification, reference validity, and method-code alignment.
+Key Results: Achieved 0/337 hallucinated references (vs ~21% baseline failure) and 100% score verification pass rates across complex systems tasks (ADRS benchmark).
+7. EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery (2026)
+Core Mechanics: Features three agents: Researcher Agent (ideation), Engineer Agent (code execution), and Evolution Manager Agent (distilling lessons into persistent memory).
+Key Innovation: Persistent dual-memory (Ideation Memory & Experimentation Memory) allows the system to evolve research strategies over successive runs, eliminating repeated experimental mistakes.
+8. AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration (2026)
+Core Mechanics: A 23-stage waterfall framework utilizing multi-agent debate for hypothesis generation, real-time citation retrieval (Semantic Scholar/OpenAlex API), sandboxed Python execution with NaN/Inf self-healing, and statistical self-critique.
+9. Kosmos: An AI Scientist for Autonomous Discovery (2025)
+Core Mechanics: Multi-agent framework built for data-driven empirical discovery, orchestrating data wrangling, model search, statistical hypothesis testing, and manuscript composition.
+10. DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively (2025)
+Core Mechanics: Utilizes a skill-based CLI architecture operating through Model Context Protocol (MCP) servers. Executes complex long-horizon scientific experiments by maintaining structured state graphs.
+11. AI-Researcher: Autonomous Scientific Innovation (2025)
+Core Mechanics: Orchestrated multi-agent pipeline splitting responsibilities between specialized survey, coding, experimental execution, and writing agents.
+Algorithmic, System, & Code-Centric Automation
+12. AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery (2025)
+Core Mechanics: Combines LLM code generation with evolutionary algorithms to discover novel mathematical algorithms and heuristics, using automated execution verifiers for evaluation.
+13. Barbarians at the Gate: How AI is Upending Systems Research (2025)
+Core Mechanics: Explores AI automation specifically in systems engineering (GPU placement, cloud networking, MoE load balancing). Shows that LLM agents can rapidly discover non-obvious engineering trade-offs superior to human heuristics.
+14. An AI System to Help Scientists Write Expert-Level Empirical Software (2025)
+Core Mechanics: Task-focused AI coding assistant designed to write performant, bug-free, and empirically robust domain-specific software for physical scientists.
+15. CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-Based Experimentation (2025)
+Core Mechanics: Prioritizes code execution integrity by tying hypothesis generation directly to available computational libraries and hardware constraints.
+Methodological Rigor, Ideation, & Literature Discovery
+16. SGHA: Evidence-Grounded Research Problem Discovery with Local Language Models (2026)
+Core Mechanics: Solves "groundless ideation" by forcing LLMs to mine literature graph topologies (citations, semantic gaps) to produce evidence-grounded research questions that can run on local compute.
+17. Curie: Toward Rigorous and Automated Scientific Experimentation with AI Agents (2025)
+Core Mechanics: Focuses on scientific rigor, control-group generation, and statistical significance testing during agentic experimentation to prevent false positive discoveries.
+18. PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration (2025)
+Core Mechanics: Integrates domain-specific physical principles, chemical symmetries, and theoretical axioms directly into agent constraint prompts during multi-agent ideation and code generation.
+19. Accelerating Scientific Research with Gemini: Case Studies and Common Techniques (2026)
+Core Mechanics: Deep dive into state-of-the-art long-context LLM applications (Gemini 1.5/2.0 series) across multi-modal scientific workflows, mathematical proofs, and literature synthesis.
+20. Agent Laboratory: Using LLM Agents as Research Assistants (2025)
+Core Mechanics: Human-in-the-loop framework where specialized assistant agents handle literature mapping, script generation, and LaTeX formatting while soliciting human feedback at key checkpoints.
+Interactive Artifacts & Co-Evolving Ecosystems
+21. Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents (2025)
+Core Mechanics: Converts static PDF research papers into interactive Model Context Protocol (MCP) servers containing executable tools, codebases, datasets, and workflow prompts. Enables other AI agents or humans to directly interrogate, re-run, and adapt paper methods via standard API calls.
+22. AgentRxiv: Towards Collaborative Autonomous Research (2025)
+Core Mechanics: A proposed decentralized repository platform where autonomous agents publish, peer-review, replicate, and cite each other's research modules in continuous real-time execution loops.
+23. OmniScientist: Toward a Co-evolving Ecosystem of Human and AI Scientists (2025)
+Core Mechanics: Proposes a long-term framework for human-agent co-evolution, where AI agents adapt their research focus to human scientific values, and humans adapt their theoretical models based on agent-discovered empirical anomalies.
+
 
 
 
