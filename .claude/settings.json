@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -n '47,71p' auto-research.md)",
+      "Bash(pandoc /tmp/table_snippet.md -o /tmp/table_snippet_out.tex)",
+      "Bash(sed -n '50,76p' auto-research.md)",
+      "Bash(pandoc /tmp/table_snippet2.md -o /tmp/table_snippet2_out.tex)"
+    ]
+  }
+}
