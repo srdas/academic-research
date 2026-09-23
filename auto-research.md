@@ -115,7 +115,7 @@ Third, we can now make the thought process more transparent. This is more than j
 
 Fourth, we need to develop *human-AI collaborative workflows* that integrate agent frameworks (e.g., Agent Laboratory, SGHA, EvoScientist) into daily laboratory/research operations as active co-scientists rather than simple literature search engines. Conversely, we need to eschew autonomous research. 
 
-Fifth, we are already seeing the growth in RSI (*recursive self improvement*) revolutionizing automated research. Take for example the [OpenRSI](https://index.openrsi.foundation/index.html) initiative at UC Berkeley. RSI in research systems is difficult to accept because it is conceptually orthogonal to human engagement in ideation, verification, understanding, and collaborative work. RSI is also alarming in domains outside research, and has been discussed in debates around existential risk from AI [@duan_last_2026].  RSI does promote iterative and dynamic research, which may well be the next paradigm scientists have to come to terms with. 
+Fifth, we are already seeing the growth in RSI (*recursive self improvement*) revolutionizing automated research. Take for example the [OpenRSI](https://index.openrsi.foundation/index.html) initiative at UC Berkeley. RSI in research systems is difficult to accept because it is conceptually orthogonal to human engagement in ideation, verification, understanding, and collaborative work. RSI is also alarming in domains outside research, and has been discussed in debates around existential risk from AI [@duan_last_2026].  RSI does promote iterative and dynamic research, which may well be the next paradigm scientists have to come to terms with (@chen_recursive_2026, @azizi_othman_recursive_2022). 
 
 
 ## Appendix: Synopsis of papers
