@@ -51,7 +51,7 @@ The preceding discussion suggests that these automated research systems map out 
 
 \begin{table}[htbp]
 \centering
-\caption{Taxonomy of models and attributes}
+\caption{Taxonomy of models and attributes. The table is AI generated from the content of the rest of this article and agentic directives to read papers and write this structured table based on the taxonomy.}
 \label{tbl:taxonomy}
 \footnotesize
 \rowcolors{2}{rowgray}{white}
