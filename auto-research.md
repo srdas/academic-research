@@ -49,33 +49,41 @@ The preceding discussion suggests that these automated research systems map out 
 
 [Table 1](#tbl:taxonomy) offers a description of all the papers in this taxonomy. 
 
-\newpage
+\begin{table}[htbp]
+\centering
+\caption{Taxonomy of models and attributes}
+\label{tbl:taxonomy}
 \footnotesize
 \rowcolors{2}{rowgray}{white}
-
-| Reference System / Paper | Automation Scope | Agentic Search Pattern | Grounding / Verifiability | Human-AI Model |
-|---|---|---|---|---|
-| The AI Scientist v1 (2024) | End-to-End | Sequential / Pipeline | Code Execution Bounded | Autonomous Sandbox |
-| The AI Scientist-v2 (2025) | End-to-End | Agentic Tree Search (BFTS) | Code Execution Bounded | Autonomous Sandbox |
-| ScientistOne (2026) | End-to-End | Multi-Agent + CoE Pipeline | Chain-of-Evidence Audit | Autonomous Sandbox |
-| EvoScientist (2026) | End-to-End | Evolutionary Multi-Agent | Persistent Memory + Execution | Human-in-the-Loop / Auto |
-| AutoResearchClaw (2026) | End-to-End | 23-Stage Waterfall + Debate | Code Execution + Self-Healing | Human-AI Collaboration |
-| Paper2Agent (2025) | Interactive Artifact | Multi-Agent Orchestration | MCP Tutorial Testing | Interactive Co-Scientist |
-| Kosmos (2025) | End-to-End | Multi-Agent Hierarchy | Data/Code Execution | Autonomous Sandbox |
-| AgentRxiv (2025) | Interactive Artifact | Collaborative Multi-Agent | Peer Agent Review | Collaborative Network |
-| OmniScientist (2025) | Ecosystem | Multi-Agent Co-Evolution | Environment Feedback | Co-Evolving Ecosystem |
-| SGHA (2026) | Ideation / Discovery | Graph-based Retrieval | Evidence-Grounded Grounding | Human-Assisted |
-| DeepScientist (2025) | End-to-End | Skill-based CLI Agent | MCP Tool Execution | Autonomous Sandbox |
-| AlphaEvolve (2025) | Execution / Algorithmic | Evolutionary Coding Loop | Algorithmic Verifiers | Human-Assisted |
-| PiFlow (2025) | End-to-End | Principle-Aware Multi-Agent | Domain Physics / Axioms | Autonomous Sandbox |
-| Curie (2025) | Experimentation | Iterative Refinement | Hypothesis-Testing Rigor | Human-in-the-Loop |
-| Barbarians at the Gate (2025) | Systems Research | System-Level Profiling | Empirical Benchmark Hardware | Autonomous Sandbox |
-| Agent Laboratory (2025) | Research Assistant | Multi-Agent Collaboration | Sandbox Code Execution | Human-in-the-Loop |
-| CodeScientist (2025) | Code & Experiment | Semi-Automated Execution | Metric-Driven Validation | Human-Assisted |
-
-  : Taxonomy of models and attributes {#tbl:taxonomy}
-
-\normalsize
+\begin{tabular}{
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}}
+\toprule
+\textbf{Reference System / Paper} & \textbf{Automation Scope} & \textbf{Agentic Search Pattern} & \textbf{Grounding / Verifiability} & \textbf{Human-AI Model} \\
+\midrule
+The AI Scientist v1 (2024) & End-to-End & Sequential / Pipeline & Code Execution Bounded & Autonomous Sandbox \\
+The AI Scientist-v2 (2025) & End-to-End & Agentic Tree Search (BFTS) & Code Execution Bounded & Autonomous Sandbox \\
+ScientistOne (2026) & End-to-End & Multi-Agent + CoE Pipeline & Chain-of-Evidence Audit & Autonomous Sandbox \\
+EvoScientist (2026) & End-to-End & Evolutionary Multi-Agent & Persistent Memory + Execution & Human-in-the-Loop / Auto \\
+AutoResearchClaw (2026) & End-to-End & 23-Stage Waterfall + Debate & Code Execution + Self-Healing & Human-AI Collaboration \\
+Paper2Agent (2025) & Interactive Artifact & Multi-Agent Orchestration & MCP Tutorial Testing & Interactive Co-Scientist \\
+Kosmos (2025) & End-to-End & Multi-Agent Hierarchy & Data/Code Execution & Autonomous Sandbox \\
+AgentRxiv (2025) & Interactive Artifact & Collaborative Multi-Agent & Peer Agent Review & Collaborative Network \\
+OmniScientist (2025) & Ecosystem & Multi-Agent Co-Evolution & Environment Feedback & Co-Evolving Ecosystem \\
+SGHA (2026) & Ideation / Discovery & Graph-based Retrieval & Evidence-Grounded Grounding & Human-Assisted \\
+DeepScientist (2025) & End-to-End & Skill-based CLI Agent & MCP Tool Execution & Autonomous Sandbox \\
+AlphaEvolve (2025) & Execution / Algorithmic & Evolutionary Coding Loop & Algorithmic Verifiers & Human-Assisted \\
+PiFlow (2025) & End-to-End & Principle-Aware Multi-Agent & Domain Physics / Axioms & Autonomous Sandbox \\
+Curie (2025) & Experimentation & Iterative Refinement & Hypothesis-Testing Rigor & Human-in-the-Loop \\
+Barbarians at the Gate (2025) & Systems Research & System-Level Profiling & Empirical Benchmark Hardware & Autonomous Sandbox \\
+Agent Laboratory (2025) & Research Assistant & Multi-Agent Collaboration & Sandbox Code Execution & Human-in-the-Loop \\
+CodeScientist (2025) & Code \& Experiment & Semi-Automated Execution & Metric-Driven Validation & Human-Assisted \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 ## How is this automation going to change research?
 
